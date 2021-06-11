@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  overflow: scroll;
+  background-color: rgb(215, 245, 245);
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.scene,
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
